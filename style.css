@@ -50,8 +50,13 @@ ul li {
  font-family:  "Poppins", sans-serif;
  font-weight: bold;
  color: whitesmoke;
+ transition: 0.5s;
  
 }
+ul li:hover{
+    background-color: #8b005f;
+    border: none;
+} 
 .fa-solid{
     color: #8b005f;
 }
@@ -63,4 +68,15 @@ ul li {
 ::placeholder{
     font-family:  "Poppins", sans-serif;
 
+}
+
+button{
+    background-color: #8b005f !important;
+    color:#fecfef !important;
+    font-family:  "Poppins", sans-serif;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
 }
